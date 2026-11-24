@@ -223,6 +223,7 @@ def teacher_tab_attendance_record():
                     )
 
     st.dataframe(display_df, width='stretch', hide_index=True)
+    
 
 def login_teacher(username,password):
     if not username or not password:

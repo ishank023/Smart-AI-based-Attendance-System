@@ -1,3 +1,4 @@
+streamlit
 # utilities
 numpy
 pandas
@@ -16,8 +17,7 @@ bcrypt
 segno 
 pillow 
 
-streamlit
 
 #voice modules
-libroza # editing etc transformation normalization
+librosa # editing etc transformation normalization
 resemblyzer #embeddings generates

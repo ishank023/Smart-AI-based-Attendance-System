@@ -7,6 +7,7 @@ def main():
     st.set_page_config(
         page_title='SnapClass - Making Attendance Faster Using AI',
         page_icon = "https://i.ibb.co/YTYGn5qV/logo.png"
+    
     )
     # Initialization
     if 'login_type' not in st.session_state:
