@@ -9,10 +9,15 @@ dlib-bin
 git+https://github.com/ageitgey/face_recognition_models
 setuptools<70.0.0
 
+# databases
 supabase
 bcrypt
-
+#images deal
 segno 
 pillow 
 
 streamlit
+
+#voice modules
+libroza # editing etc transformation normalization
+resemblyzer #embeddings generates

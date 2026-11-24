@@ -16,9 +16,9 @@ def style_background_home():
 def style_background_dashboard():
         st.markdown(""" 
             <style>
-                .stApp(
+                .stApp{
                     background : #E0E3FF !important;
-                )
+                }
             </style>
         """,unsafe_allow_html=True)
 
@@ -53,7 +53,7 @@ def style_base_layout():
                     
                 }
                 button {
-                    background:#5865F2 !important;
+                    background-color:#5865F2 !important;
                     border-radius :1.5rem !important;
                     padding : 10px 20px !important;
                     color : white !important;
@@ -61,7 +61,7 @@ def style_base_layout():
                     transition: transform 0.25s ease-in-out !important;
                 }
                 button[kind="secondary"]{
-                    background: #EB459E !important;
+                    background-color: #EB459E !important;
                     border-radius:1.5rem !important;
                     padding :10px 20px !important;
                     color :white !important;
@@ -69,7 +69,7 @@ def style_base_layout():
                     transition:transform 0.25s ease-in-out !important;
                 }
                 button[kind="tertiary"]{
-                    background: black !important;
+                    background-color: black !important;
                     border-radius : 1.5rem !important;
                     padding : 10px 20px !important;
                     color : white !important;
